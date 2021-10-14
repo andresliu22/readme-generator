@@ -57,8 +57,7 @@ inquirer
     switch (response.license) {
         case "MIT":
             license = 
-`
-MIT License
+`MIT License
 
 Copyright (c) 2021 Andres Liu
 
