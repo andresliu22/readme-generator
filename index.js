@@ -68,7 +68,7 @@ inquirer
     const readme = 
 `
 # README Generator
-![License](https://img.shields.io/github/license/andresliu22/readme-generator?label=License)
+![License](https://img.shields.io/github/license/andresliu22/readme-generator?color=green&label=License)
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
