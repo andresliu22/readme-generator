@@ -20,8 +20,8 @@ These instructions will get you a copy of the project up and running on your loc
 * Type the commands "npm install inquirer" & "npm install fs" to get the libraries used in this project.
 * Type the command "node index.js" to start generating your README file.
 * Fill out all the questions about your own repository.
-* After all questions you'll your README file will be generated with all the answers you given adding the LICENSE File of your choice.
-* Congratulations, you just generated your README file with only a few steps.
+* After answering all the questions your README file will be generated with all the answers you've given adding the LICENSE File of your choice.
+* Congratulations! You just generated your own customize README file with only a few and simple steps.
 
 ## Walkthrough Video
 
@@ -32,6 +32,8 @@ These instructions will get you a copy of the project up and running on your loc
 * Git
 * Node.js
 * NPM
+* Inquirer
+* fs
 
 ## Installing
 
