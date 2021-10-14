@@ -70,13 +70,13 @@ inquirer
 # README Generator
 ![License](https://img.shields.io/github/license/andresliu22/readme-generator?label=License)
 ## Table of Contents
-* [Description] (#description)
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [License] (#license)
-* [Contributing] (#contributing)
-* [Tests] (#tests)
-* [Questions] (#questions)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 ## Description
 ${response.description}
 ## Installation
@@ -92,7 +92,7 @@ ${response.contributing}
 ## Tests
 ${response.tests}
 ## Questions
-* [Link to Github] https://github.com/${response.github}
+* [Link to Github](https://github.com/${response.github})
 * If you have any questions, send me an email to ${response.email}. I will try answer your questions as soon as possible.
 `
     fs.writeFile("README.md", readme, error => {

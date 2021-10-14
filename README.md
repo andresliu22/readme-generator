@@ -2,27 +2,27 @@
 # README Generator
 ![License](https://img.shields.io/github/license/andresliu22/readme-generator?label=License)
 ## Table of Contents
-* [Description] (#description)
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [License] (#license)
-* [Contributing] (#contributing)
-* [Tests] (#tests)
-* [Questions] (#questions)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 ## Description
-asd
+this is a readme generator
 ## Installation
-asd
+these are installation instructions
 ## Usage
-asd
+usage information for you
 ## License
 Copyright (c) Microsoft Corporation. All rights reserved.
 
-Licensed under the MIT license.
+Licensed under the GPL license.
 ## Contributing
-asd
+contribute please
 ## Tests
-asd
+testing testing
 ## Questions
-* [Link to Github] https://github.com/andresliu22
+* [Link to Github](https://github.com/andresliu22)
 * If you have any questions, send me an email to andresliu22@gmail.com. I will try answer your questions as soon as possible.
