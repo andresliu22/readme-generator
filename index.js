@@ -1,6 +1,8 @@
+// Initialize libraries
 const inquirer = require("inquirer");
 const fs = require("fs");
 
+// Setting questions using inquirer
 inquirer
   .prompt([
     {
@@ -56,12 +58,12 @@ inquirer
     },
   ])
   .then((response) => {
-    console.log(response);
-
+    
+    // Generate license file taking in consideration the license selected by the user
     let date = new Date();
     let license = setLicense(response.license, response.fullName);
     let licenseTag = '';
-    
+
     fs.writeFile("LICENSE.md", license, error => {
         error ? console.log(error) : console.log("LICENSE File Created!");
     })
@@ -71,6 +73,8 @@ inquirer
     } else if (response.license === "GPL") {
         licenseTag = "color=green&label=License"
     }
+
+    // Creating README text with the answers of inquirer
     const readme = 
 `
 # README Generator
@@ -90,8 +94,6 @@ ${response.installation}
 ## Usage
 ${response.usage}
 ## License
-Copyright (c) Microsoft Corporation. All rights reserved.
-
 Licensed under the ${response.license} license.
 ## Contributing
 ${response.contributing}
@@ -100,15 +102,17 @@ ${response.tests}
 ## Questions
 * [Link to Github](https://github.com/${response.github})
 * If you have any questions, send me an email to ${response.email}. I will try answer your questions as soon as possible.
-`
+`   
+    // Generating README file passing the text
     fs.writeFile("README.md", readme, error => {
         error ? console.log(error) : console.log("README File Created!");
     })
   }
-  );
+);
 
 
-  function setLicense(license, fullName) {
+// Creating Licenses text by license
+function setLicense(license, fullName) {
     let date = new Date();
     let licenseTxt = ``;
     switch (license) {
@@ -822,4 +826,4 @@ Public License instead of this License.  But first, please read
     }
 
     return licenseTxt;
-  }
+}
