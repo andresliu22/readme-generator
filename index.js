@@ -60,15 +60,21 @@ inquirer
 
     let date = new Date();
     let license = setLicense(response.license, response.fullName);
-
+    let licenseTag = '';
+    
     fs.writeFile("LICENSE.md", license, error => {
         error ? console.log(error) : console.log("LICENSE File Created!");
     })
 
+    if (response.license ==="MIT") {
+        licenseTag = "label=License";
+    } else if (response.license === "GPL") {
+        licenseTag = "color=green&label=License"
+    }
     const readme = 
 `
 # README Generator
-![License](https://img.shields.io/github/license/andresliu22/readme-generator?color=green&label=License)
+![License](https://img.shields.io/github/license/andresliu22/readme-generator?${licenseTag})
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)

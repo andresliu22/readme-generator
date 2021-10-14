@@ -1,6 +1,6 @@
 
 # README Generator
-![License](https://img.shields.io/github/license/andresliu22/readme-generator?color=green&label=License)
+![License](https://img.shields.io/github/license/andresliu22/readme-generator?label=License)
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
@@ -10,17 +10,17 @@
 * [Tests](#tests)
 * [Questions](#questions)
 ## Description
-This is a readme generator for professional github repositories
+This is a readme generator for professional purposes
 ## Installation
-here you put your installation instructions
+Here you put your instructions
 ## Usage
-here you put your usage information
+Explain the usage of your app
 ## License
 Copyright (c) Microsoft Corporation. All rights reserved.
 
 Licensed under the MIT license.
 ## Contributing
-here you mention the contribution
+Explain the contribution
 ## Tests
 Test everything
 ## Questions
