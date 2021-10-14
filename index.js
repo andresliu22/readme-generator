@@ -35,9 +35,9 @@ inquirer
     },
     {
         type: 'list',
-        message: 'Licence: ',
-        name: 'licence',
-        choices: ["MIT Licence", "GNU GPLv3"]
+        message: 'License: ',
+        name: 'license',
+        choices: ["MIT License", "GNU GPLv3"]
     },
     {
         type: 'input',
@@ -52,7 +52,29 @@ inquirer
   ])
   .then((response) => {
     console.log(response);
-    fs.writeFile("README.md", response, error => {
+
+    const readme = `
+        # README Generator
+        
+        ## Description
+        ${response.description}
+        ## Table of Contents
+
+        ### Installation
+        ${response.installation}
+        ### Usage
+        ${response.usage}
+        ### License
+        ${response.license}
+        ### Contributing
+        ${response.contributing}
+        ### Tests
+        ${response.tests}
+        ### Questions
+        [Link to Github] https://github.com/${response.github}
+        If you have any questions, you can send me a mail to ${response.email}.
+    `
+    fs.writeFile("README.md", readme, error => {
         error ? console.log(error) : console.log("README File Created!");
     })
   }
