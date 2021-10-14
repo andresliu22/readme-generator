@@ -12,7 +12,7 @@ Generate your own customize README file simple and fast using this README Genera
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 * Click on the green button named Code on github and copy the URL of the repository.
 * Use the command git clone (repository's URL) to clone all existing project on your local machine.
