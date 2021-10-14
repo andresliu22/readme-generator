@@ -10,19 +10,19 @@
 * [Tests](#tests)
 * [Questions](#questions)
 ## Description
-dsad
+This is a readme generator for professional github repositories
 ## Installation
-dsdas
+here you put your installation instructions
 ## Usage
-asd
+here you put your usage information
 ## License
 Copyright (c) Microsoft Corporation. All rights reserved.
 
-Licensed under the GPL license.
+Licensed under the MIT license.
 ## Contributing
-asd
+here you mention the contribution
 ## Tests
-asd
+Test everything
 ## Questions
-* [Link to Github](https://github.com/ads)
-* If you have any questions, send me an email to sd. I will try answer your questions as soon as possible.
+* [Link to Github](https://github.com/andresliu22)
+* If you have any questions, send me an email to andresliu22@gmail.com. I will try answer your questions as soon as possible.
